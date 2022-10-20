@@ -1,0 +1,36 @@
+By the grace of G*d, you will absorb an dmove this through like a champ before the week is out.
+
+Your weekend assignment is to build Targé where users can shop designer on a budget :joy:
+This program should allow us to manage inventory at a shop.
+You'll need to define three classes: Product, Shop and Main
+Product should define the data model for a Product at Targé
+Shop should manage a list of all the Product objects created  for Targé
+Main should run our program and start a loop that prints:
+Welcome to Targjay, CRUD,QUit
+
+Level 1: Working with multiple classes and instance methods
+When the user chooses to create a new product your
+Shop should ask them for all the necessary information you need to create a
+new product and add it to your list.
+When the user chooses to read all the products your S
+hop should print all the products in the list in a well formatted way.
+
+todo: l1/2
+scaffolding of methods first
+1) create product data class: add product variables price, ID, in stock, aisle, print prodcut
+ 2) shop: shop data class: add product to store, remove product from store, print inventory.
+ 3)  main: Crud loop, calling all methods
+
+
+Level 2: Adding logic for finding and modifying objects in an ArrayList
+When the user chooses to update a product, your Shop should ask them which
+ product  ID they want to update and ask them to input the necessary information to update that product.
+When the user chooses to remove a product your Shop should ask
+them which product ID they want to remove and should remove the product.
+
+
+Level 3: Extending Main Loop Logic
+Make a separate class for a Shopper and add functionality to your loop in
+ Main to ask whether a user would
+like to run the program as a Shopper or a Manager when it first runs
+and if they're a Manager, present them the loop we built initially otherwise present them another loop that prints a list of available products:
